@@ -1,7 +1,7 @@
 {
   "name": "YQAvoidCrashManager",
-  "version": "0.1.0",
-  "summary": "A short description of YQAvoidCrashManager.",
+  "version": "0.0.2",
+  "summary": "A Manager kit for Avoiding crashes in your classes.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/gyq19900513@126.com/YQAvoidCrashManager",
   "license": {
@@ -9,11 +9,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "gyq19900513@126.com": "yongqing3@staff.sina.com.cn"
+    "shadeless99": "shadeless@126.com"
   },
   "source": {
     "git": "https://github.com/gyq19900513@126.com/YQAvoidCrashManager.git",
-    "tag": "0.1.0"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"

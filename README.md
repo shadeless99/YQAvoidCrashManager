@@ -16,8 +16,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 YQAvoidCrashManager is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+```Objective-C
 pod 'YQAvoidCrashManager'
+```
+## How To Use
+
+Import the header file "YQAvoidCrashManager.h" in your Appdelegate file and invoke the start class method
+
+```Objective-C
+// 开启防崩溃
+[YQAvoidCrashManager startAvoid];
 ```
 
 ## Author

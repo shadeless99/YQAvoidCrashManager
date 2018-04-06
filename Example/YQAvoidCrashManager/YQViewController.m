@@ -7,6 +7,7 @@
 //
 
 #import "YQViewController.h"
+#import "YQAvoidCrashManager.h"
 
 @interface YQViewController ()
 
@@ -18,6 +19,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    // 开启防崩溃
+    [YQAvoidCrashManager startAvoid];
+    
+    NSMutableArray *arr = [NSMutableArray array];
+    id obj = [arr objectAtIndex:1];
+    NSLog(@"obj : %@",obj);
 }
 
 - (void)didReceiveMemoryWarning

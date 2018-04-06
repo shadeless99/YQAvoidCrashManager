@@ -10,6 +10,15 @@
 #endif
 #endif
 
+#import "NSArray+YQAvoidCrash.h"
+#import "NSDictionary+YQAvoidCrash.h"
+#import "NSMutableArray+YQAvoidCrash.h"
+#import "NSMutableDictionary+YQAvoidCrash.h"
+#import "NSObject+YQAvoidKVOCrash.h"
+#import "NSObject+YQAvoidSelectorNotFoundCrash.h"
+#import "YQAvoidCrashConfig.h"
+#import "YQAvoidCrashManager.h"
+#import "YQAvoidRefreshViewNotMainThreadCrash.h"
 
 FOUNDATION_EXPORT double YQAvoidCrashManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char YQAvoidCrashManagerVersionString[];
