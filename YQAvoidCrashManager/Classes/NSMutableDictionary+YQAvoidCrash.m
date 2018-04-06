@@ -20,7 +20,7 @@
 	YQSWIZZLEWITHCLASS(dictionaryM, oriSetObject, swiSetObject);
 	
 	SEL oriRemoveObject = @selector(removeObjectForKey:);
-	SEL swiRemoveObject = @selector(sn_removeObjectForKey:);
+	SEL swiRemoveObject = @selector(yq_removeObjectForKey:);
 	YQSWIZZLEWITHCLASS(dictionaryM, oriRemoveObject, swiRemoveObject);
 }
 

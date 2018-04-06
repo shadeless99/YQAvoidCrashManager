@@ -1,5 +1,5 @@
 PODS:
-  - YQAvoidCrashManager (0.0.2)
+  - YQAvoidCrashManager (0.0.4)
 
 DEPENDENCIES:
   - YQAvoidCrashManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  YQAvoidCrashManager: fc2abf9b844b0362f31eb5c0fe68251237d0a72d
+  YQAvoidCrashManager: d4587d34a59fe8167448e798148653c131d0236b
 
 PODFILE CHECKSUM: 6864ed08b1bd32fc1ee4f8d0b9ff954218a5ac95
 

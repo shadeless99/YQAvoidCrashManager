@@ -45,7 +45,7 @@ NSString const *YQAvoidCrashNotification = @"YQAvoidCrashNotification";
 	NSString *errorName = exception.name;
 	NSString *errorReason = exception.reason;
 
-	errorReason = [errorReason stringByReplacingOccurrencesOfString:@"SNAvoidCrash" withString:@""];
+	errorReason = [errorReason stringByReplacingOccurrencesOfString:@"YQAvoidCrash" withString:@""];
 	
 	NSString *errorPlace = [NSString stringWithFormat:@"Error Place:%@",mainCallStackSymbolMsg];
 	
