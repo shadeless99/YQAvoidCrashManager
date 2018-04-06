@@ -17,7 +17,7 @@
 #import "NSDictionary+YQAvoidCrash.h"
 #import "NSMutableDictionary+YQAvoidCrash.h"
 
-NSString const *YQAvoidCrashNotification = @"YQAvoidCrashNotification";
+NSString *YQAvoidCrashNotification = @"YQAvoidCrashNotification";
 
 @implementation YQAvoidCrashManager
     
