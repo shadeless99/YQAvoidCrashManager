@@ -1,0 +1,6 @@
+framework module YQAvoidCrashManager {
+  umbrella header "YQAvoidCrashManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

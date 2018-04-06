@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45FF73C6207716E300DE725B /* NSArray+YQAvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF73B5207716E300DE725B /* NSArray+YQAvoidCrash.m */; };
+		45FF73C7207716E300DE725B /* NSDictionary+YQAvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF73B6207716E300DE725B /* NSDictionary+YQAvoidCrash.m */; };
+		45FF73C8207716E300DE725B /* NSMutableDictionary+YQAvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF73B8207716E300DE725B /* NSMutableDictionary+YQAvoidCrash.m */; };
+		45FF73C9207716E300DE725B /* NSObject+YQAvoidSelectorNotFoundCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF73BA207716E300DE725B /* NSObject+YQAvoidSelectorNotFoundCrash.m */; };
+		45FF73CA207716E300DE725B /* NSMutableArray+YQAvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF73BC207716E300DE725B /* NSMutableArray+YQAvoidCrash.m */; };
+		45FF73CB207716E300DE725B /* NSObject+YQAvoidKVOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF73BD207716E300DE725B /* NSObject+YQAvoidKVOCrash.m */; };
+		45FF73CC207716E300DE725B /* YQAvoidCrashManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF73C2207716E300DE725B /* YQAvoidCrashManager.m */; };
+		45FF73CD207716E300DE725B /* YQAvoidRefreshViewNotMainThreadCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF73C3207716E300DE725B /* YQAvoidRefreshViewNotMainThreadCrash.m */; };
 		53918ED88F87D24A53607482 /* Pods_YQAvoidCrashManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41DE9A9BB630EE9A392F270 /* Pods_YQAvoidCrashManager_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -39,7 +47,24 @@
 /* Begin PBXFileReference section */
 		233B00DDC76AED67B52802F7 /* Pods_YQAvoidCrashManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQAvoidCrashManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C35D7B4F635C8FFF0D3190 /* Pods-YQAvoidCrashManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQAvoidCrashManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YQAvoidCrashManager_Example/Pods-YQAvoidCrashManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3630D9014246C97AF34A480C /* YQAvoidCrashManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YQAvoidCrashManager.podspec; path = ../YQAvoidCrashManager.podspec; sourceTree = "<group>"; };
+		3630D9014246C97AF34A480C /* YQAvoidCrashManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YQAvoidCrashManager.podspec; path = ../YQAvoidCrashManager.podspec; sourceTree = "<group>"; };
+		45FF73B5207716E300DE725B /* NSArray+YQAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YQAvoidCrash.m"; sourceTree = "<group>"; };
+		45FF73B6207716E300DE725B /* NSDictionary+YQAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YQAvoidCrash.m"; sourceTree = "<group>"; };
+		45FF73B7207716E300DE725B /* NSObject+YQAvoidKVOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YQAvoidKVOCrash.h"; sourceTree = "<group>"; };
+		45FF73B8207716E300DE725B /* NSMutableDictionary+YQAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+YQAvoidCrash.m"; sourceTree = "<group>"; };
+		45FF73B9207716E300DE725B /* YQAvoidRefreshViewNotMainThreadCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAvoidRefreshViewNotMainThreadCrash.h; sourceTree = "<group>"; };
+		45FF73BA207716E300DE725B /* NSObject+YQAvoidSelectorNotFoundCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YQAvoidSelectorNotFoundCrash.m"; sourceTree = "<group>"; };
+		45FF73BB207716E300DE725B /* YQAvoidCrashManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAvoidCrashManager.h; sourceTree = "<group>"; };
+		45FF73BC207716E300DE725B /* NSMutableArray+YQAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+YQAvoidCrash.m"; sourceTree = "<group>"; };
+		45FF73BD207716E300DE725B /* NSObject+YQAvoidKVOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YQAvoidKVOCrash.m"; sourceTree = "<group>"; };
+		45FF73BE207716E300DE725B /* NSDictionary+YQAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YQAvoidCrash.h"; sourceTree = "<group>"; };
+		45FF73BF207716E300DE725B /* NSArray+YQAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YQAvoidCrash.h"; sourceTree = "<group>"; };
+		45FF73C0207716E300DE725B /* NSMutableDictionary+YQAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+YQAvoidCrash.h"; sourceTree = "<group>"; };
+		45FF73C1207716E300DE725B /* YQAvoidCrashConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAvoidCrashConfig.h; sourceTree = "<group>"; };
+		45FF73C2207716E300DE725B /* YQAvoidCrashManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQAvoidCrashManager.m; sourceTree = "<group>"; };
+		45FF73C3207716E300DE725B /* YQAvoidRefreshViewNotMainThreadCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQAvoidRefreshViewNotMainThreadCrash.m; sourceTree = "<group>"; };
+		45FF73C4207716E300DE725B /* NSObject+YQAvoidSelectorNotFoundCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YQAvoidSelectorNotFoundCrash.h"; sourceTree = "<group>"; };
+		45FF73C5207716E300DE725B /* NSMutableArray+YQAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+YQAvoidCrash.h"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YQAvoidCrashManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQAvoidCrashManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +87,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A41DE9A9BB630EE9A392F270 /* Pods_YQAvoidCrashManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQAvoidCrashManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A494E58886CC29B51864D857 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A494E58886CC29B51864D857 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A924D54AFEF8CEBF441E6917 /* Pods-YQAvoidCrashManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQAvoidCrashManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YQAvoidCrashManager_Example/Pods-YQAvoidCrashManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A9AF94110CB94A234B354C5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A9AF94110CB94A234B354C5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C80E4A78AF51135D614E7B5C /* Pods-YQAvoidCrashManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQAvoidCrashManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YQAvoidCrashManager_Tests/Pods-YQAvoidCrashManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FFF3C8C752619183947EF80A /* Pods-YQAvoidCrashManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQAvoidCrashManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YQAvoidCrashManager_Tests/Pods-YQAvoidCrashManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +120,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45FF73B4207716E300DE725B /* YQAvoidCrashManager */ = {
+			isa = PBXGroup;
+			children = (
+				45FF73C1207716E300DE725B /* YQAvoidCrashConfig.h */,
+				45FF73BB207716E300DE725B /* YQAvoidCrashManager.h */,
+				45FF73C2207716E300DE725B /* YQAvoidCrashManager.m */,
+				45FF73BF207716E300DE725B /* NSArray+YQAvoidCrash.h */,
+				45FF73B5207716E300DE725B /* NSArray+YQAvoidCrash.m */,
+				45FF73C5207716E300DE725B /* NSMutableArray+YQAvoidCrash.h */,
+				45FF73BC207716E300DE725B /* NSMutableArray+YQAvoidCrash.m */,
+				45FF73BE207716E300DE725B /* NSDictionary+YQAvoidCrash.h */,
+				45FF73B6207716E300DE725B /* NSDictionary+YQAvoidCrash.m */,
+				45FF73C0207716E300DE725B /* NSMutableDictionary+YQAvoidCrash.h */,
+				45FF73B8207716E300DE725B /* NSMutableDictionary+YQAvoidCrash.m */,
+				45FF73B7207716E300DE725B /* NSObject+YQAvoidKVOCrash.h */,
+				45FF73BD207716E300DE725B /* NSObject+YQAvoidKVOCrash.m */,
+				45FF73C4207716E300DE725B /* NSObject+YQAvoidSelectorNotFoundCrash.h */,
+				45FF73BA207716E300DE725B /* NSObject+YQAvoidSelectorNotFoundCrash.m */,
+				45FF73B9207716E300DE725B /* YQAvoidRefreshViewNotMainThreadCrash.h */,
+				45FF73C3207716E300DE725B /* YQAvoidRefreshViewNotMainThreadCrash.m */,
+			);
+			path = YQAvoidCrashManager;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +181,7 @@
 		6003F593195388D20070C39A /* Example for YQAvoidCrashManager */ = {
 			isa = PBXGroup;
 			children = (
+				45FF73B4207716E300DE725B /* YQAvoidCrashManager */,
 				6003F59C195388D20070C39A /* YQAppDelegate.h */,
 				6003F59D195388D20070C39A /* YQAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -250,6 +300,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "gyq19900513@126.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = M89ZUC2KA2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -405,7 +458,15 @@
 			files = (
 				6003F59E195388D20070C39A /* YQAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YQViewController.m in Sources */,
+				45FF73C7207716E300DE725B /* NSDictionary+YQAvoidCrash.m in Sources */,
+				45FF73C6207716E300DE725B /* NSArray+YQAvoidCrash.m in Sources */,
+				45FF73CB207716E300DE725B /* NSObject+YQAvoidKVOCrash.m in Sources */,
+				45FF73C9207716E300DE725B /* NSObject+YQAvoidSelectorNotFoundCrash.m in Sources */,
+				45FF73CD207716E300DE725B /* YQAvoidRefreshViewNotMainThreadCrash.m in Sources */,
+				45FF73C8207716E300DE725B /* NSMutableDictionary+YQAvoidCrash.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				45FF73CC207716E300DE725B /* YQAvoidCrashManager.m in Sources */,
+				45FF73CA207716E300DE725B /* NSMutableArray+YQAvoidCrash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,9 +594,11 @@
 			baseConfigurationReference = 23C35D7B4F635C8FFF0D3190 /* Pods-YQAvoidCrashManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M89ZUC2KA2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YQAvoidCrashManager/YQAvoidCrashManager-Prefix.pch";
 				INFOPLIST_FILE = "YQAvoidCrashManager/YQAvoidCrashManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,9 +611,11 @@
 			baseConfigurationReference = A924D54AFEF8CEBF441E6917 /* Pods-YQAvoidCrashManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M89ZUC2KA2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YQAvoidCrashManager/YQAvoidCrashManager-Prefix.pch";
 				INFOPLIST_FILE = "YQAvoidCrashManager/YQAvoidCrashManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

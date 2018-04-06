@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150ABED018436DA47AC34AA20786CE72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		67DD963ADF811496EA07B17F013130E8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B974B013E7A42E9102AFB1962F2C794D /* ReplaceMe.m */; };
+		89F789961E5D3E8FA6A0038118713CB1 /* YQAvoidCrashManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF3674142343EF2FDD2BDACD56D6EB /* YQAvoidCrashManager-dummy.m */; };
+		915F92AF2D08E76EFA477E392BA67431 /* Pods-YQAvoidCrashManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E37A8B2247C5B8A7CD1F95ABD9369353 /* Pods-YQAvoidCrashManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF3DEFF9054402160AAF50323C46B0C6 /* Pods-YQAvoidCrashManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 759496EEA60C03F38F7259A2CD8463E4 /* Pods-YQAvoidCrashManager_Tests-dummy.m */; };
+		B9A245202DBE5409C7F0A6784A09BE95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C0FF0F1981DB03D8E4A70CF6B5086B43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C10F7F605EF62231FFD148A0025B27D7 /* Pods-YQAvoidCrashManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AF9BA98C020C85B82870358A86BAC2 /* Pods-YQAvoidCrashManager_Example-dummy.m */; };
+		C8A05507185D83FDAFE3024229D61D60 /* YQAvoidCrashManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2946EA9313D6A5ED5C439814900953CA /* YQAvoidCrashManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42D32A2A49B2CF214B8164700FFC7B3 /* Pods-YQAvoidCrashManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC5DBBD915AF6B57C08D231D35E113A7 /* Pods-YQAvoidCrashManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7C57EEEE087240C212863C780425D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4476E6C42CD89D128FD4CE503A39900E;
+			remoteInfo = YQAvoidCrashManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DAFA41FF9A35B29A068856E0246F7BB /* Pods-YQAvoidCrashManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQAvoidCrashManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		24A222B87905ED4F7E08ED963DADFCF3 /* YQAvoidCrashManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQAvoidCrashManager-prefix.pch"; sourceTree = "<group>"; };
+		2946EA9313D6A5ED5C439814900953CA /* YQAvoidCrashManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQAvoidCrashManager-umbrella.h"; sourceTree = "<group>"; };
+		2DA54E92CC2437D58EF38811C3CE9B1B /* Pods-YQAvoidCrashManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQAvoidCrashManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FD04EC4CABB7765F6B1D97865B9D02A /* Pods-YQAvoidCrashManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQAvoidCrashManager_Example-resources.sh"; sourceTree = "<group>"; };
+		347C5F1E130880589C52A5397D142713 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6B28C8258B46CE1149290B189C5870 /* Pods_YQAvoidCrashManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQAvoidCrashManager_Example.framework; path = "Pods-YQAvoidCrashManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBF3674142343EF2FDD2BDACD56D6EB /* YQAvoidCrashManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YQAvoidCrashManager-dummy.m"; sourceTree = "<group>"; };
+		56F483541E9F04D0FCF44A6B8B5612F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EBE04646A7454CBD7CFE7EE78603B0D /* Pods-YQAvoidCrashManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YQAvoidCrashManager_Tests.modulemap"; sourceTree = "<group>"; };
+		65EA7A63969BD92B934BBCAA8B0022FD /* YQAvoidCrashManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YQAvoidCrashManager.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		759496EEA60C03F38F7259A2CD8463E4 /* Pods-YQAvoidCrashManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQAvoidCrashManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		79AB4C9CE81BF3693BB68231B5FBE24F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805F98F6D015762A5842DCC91E79B2C4 /* Pods-YQAvoidCrashManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQAvoidCrashManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		901325368890AE298854CDEB9EB0F7D7 /* Pods-YQAvoidCrashManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQAvoidCrashManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		973EEE6A0606F8DCF62A88B104206F33 /* Pods-YQAvoidCrashManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YQAvoidCrashManager_Example.modulemap"; sourceTree = "<group>"; };
+		B1A1B92D45C0A4BC606F9097008F4C96 /* Pods-YQAvoidCrashManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQAvoidCrashManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		B32F0A6D87924DE613C91141E0D02F57 /* YQAvoidCrashManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQAvoidCrashManager.xcconfig; sourceTree = "<group>"; };
+		B601A7045003E33561E43DFAB675CD1E /* Pods-YQAvoidCrashManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQAvoidCrashManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B7DDF0372CDBBC52A0666792474F3BDC /* Pods-YQAvoidCrashManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQAvoidCrashManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B974B013E7A42E9102AFB1962F2C794D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YQAvoidCrashManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C467165F19FF181835250750529FC456 /* Pods-YQAvoidCrashManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQAvoidCrashManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C779DFBF443D43956A66BF345D4354C4 /* Pods-YQAvoidCrashManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQAvoidCrashManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C789172A839D4427086156B598DB07D3 /* Pods-YQAvoidCrashManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQAvoidCrashManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF9985409D8644C7DC7777539F761E93 /* Pods_YQAvoidCrashManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQAvoidCrashManager_Tests.framework; path = "Pods-YQAvoidCrashManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BF4A4EC016783A4E8A482B263046F1 /* YQAvoidCrashManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YQAvoidCrashManager.framework; path = YQAvoidCrashManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37A8B2247C5B8A7CD1F95ABD9369353 /* Pods-YQAvoidCrashManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQAvoidCrashManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EC5DBBD915AF6B57C08D231D35E113A7 /* Pods-YQAvoidCrashManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQAvoidCrashManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		F6AF9BA98C020C85B82870358A86BAC2 /* Pods-YQAvoidCrashManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQAvoidCrashManager_Example-dummy.m"; sourceTree = "<group>"; };
+		FD36C2B15B09FC538A6126C21519ACF6 /* Pods-YQAvoidCrashManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQAvoidCrashManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		233B6505F843F843107B89435CD1BB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A245202DBE5409C7F0A6784A09BE95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACA060FD4DB4DDC56A3F7487D95A0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FF0F1981DB03D8E4A70CF6B5086B43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F945D5E2FBAC55051CD04EAB58BDF0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150ABED018436DA47AC34AA20786CE72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D5DA354809C30DE7887E88C389E25BE /* Pods-YQAvoidCrashManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				56F483541E9F04D0FCF44A6B8B5612F9 /* Info.plist */,
+				973EEE6A0606F8DCF62A88B104206F33 /* Pods-YQAvoidCrashManager_Example.modulemap */,
+				C467165F19FF181835250750529FC456 /* Pods-YQAvoidCrashManager_Example-acknowledgements.markdown */,
+				C789172A839D4427086156B598DB07D3 /* Pods-YQAvoidCrashManager_Example-acknowledgements.plist */,
+				F6AF9BA98C020C85B82870358A86BAC2 /* Pods-YQAvoidCrashManager_Example-dummy.m */,
+				B7DDF0372CDBBC52A0666792474F3BDC /* Pods-YQAvoidCrashManager_Example-frameworks.sh */,
+				2FD04EC4CABB7765F6B1D97865B9D02A /* Pods-YQAvoidCrashManager_Example-resources.sh */,
+				EC5DBBD915AF6B57C08D231D35E113A7 /* Pods-YQAvoidCrashManager_Example-umbrella.h */,
+				901325368890AE298854CDEB9EB0F7D7 /* Pods-YQAvoidCrashManager_Example.debug.xcconfig */,
+				805F98F6D015762A5842DCC91E79B2C4 /* Pods-YQAvoidCrashManager_Example.release.xcconfig */,
+			);
+			name = "Pods-YQAvoidCrashManager_Example";
+			path = "Target Support Files/Pods-YQAvoidCrashManager_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D5D143DD4633B6647AA4B944A50B2973 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				94A176A99E5DB1180EBC9C4B3B318286 /* Products */,
+				7EB7D26C018A32AD0FF6EF2407E98261 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EB7D26C018A32AD0FF6EF2407E98261 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D5DA354809C30DE7887E88C389E25BE /* Pods-YQAvoidCrashManager_Example */,
+				7FDD3A44141CB48A4D5FF41F66B345ED /* Pods-YQAvoidCrashManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7FDD3A44141CB48A4D5FF41F66B345ED /* Pods-YQAvoidCrashManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				79AB4C9CE81BF3693BB68231B5FBE24F /* Info.plist */,
+				5EBE04646A7454CBD7CFE7EE78603B0D /* Pods-YQAvoidCrashManager_Tests.modulemap */,
+				2DA54E92CC2437D58EF38811C3CE9B1B /* Pods-YQAvoidCrashManager_Tests-acknowledgements.markdown */,
+				FD36C2B15B09FC538A6126C21519ACF6 /* Pods-YQAvoidCrashManager_Tests-acknowledgements.plist */,
+				759496EEA60C03F38F7259A2CD8463E4 /* Pods-YQAvoidCrashManager_Tests-dummy.m */,
+				B601A7045003E33561E43DFAB675CD1E /* Pods-YQAvoidCrashManager_Tests-frameworks.sh */,
+				B1A1B92D45C0A4BC606F9097008F4C96 /* Pods-YQAvoidCrashManager_Tests-resources.sh */,
+				E37A8B2247C5B8A7CD1F95ABD9369353 /* Pods-YQAvoidCrashManager_Tests-umbrella.h */,
+				C779DFBF443D43956A66BF345D4354C4 /* Pods-YQAvoidCrashManager_Tests.debug.xcconfig */,
+				0DAFA41FF9A35B29A068856E0246F7BB /* Pods-YQAvoidCrashManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-YQAvoidCrashManager_Tests";
+			path = "Target Support Files/Pods-YQAvoidCrashManager_Tests";
+			sourceTree = "<group>";
+		};
+		94A176A99E5DB1180EBC9C4B3B318286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C6B28C8258B46CE1149290B189C5870 /* Pods_YQAvoidCrashManager_Example.framework */,
+				CF9985409D8644C7DC7777539F761E93 /* Pods_YQAvoidCrashManager_Tests.framework */,
+				D1BF4A4EC016783A4E8A482B263046F1 /* YQAvoidCrashManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97F521F9A7E41FD883E053223481F27D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				347C5F1E130880589C52A5397D142713 /* Info.plist */,
+				65EA7A63969BD92B934BBCAA8B0022FD /* YQAvoidCrashManager.modulemap */,
+				B32F0A6D87924DE613C91141E0D02F57 /* YQAvoidCrashManager.xcconfig */,
+				4DBF3674142343EF2FDD2BDACD56D6EB /* YQAvoidCrashManager-dummy.m */,
+				24A222B87905ED4F7E08ED963DADFCF3 /* YQAvoidCrashManager-prefix.pch */,
+				2946EA9313D6A5ED5C439814900953CA /* YQAvoidCrashManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YQAvoidCrashManager";
+			sourceTree = "<group>";
+		};
+		B10F4A0015824ABABDC1E7B00946EF94 /* YQAvoidCrashManager */ = {
+			isa = PBXGroup;
+			children = (
+				B974B013E7A42E9102AFB1962F2C794D /* ReplaceMe.m */,
+				97F521F9A7E41FD883E053223481F27D /* Support Files */,
+			);
+			name = YQAvoidCrashManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5D143DD4633B6647AA4B944A50B2973 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B10F4A0015824ABABDC1E7B00946EF94 /* YQAvoidCrashManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E237E0783C16BBC48AB03C1E06A4EFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42D32A2A49B2CF214B8164700FFC7B3 /* Pods-YQAvoidCrashManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560B067F93A7A022D9CA40091D2574D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915F92AF2D08E76EFA477E392BA67431 /* Pods-YQAvoidCrashManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67436C5428D5C41E0775196BC212C939 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A05507185D83FDAFE3024229D61D60 /* YQAvoidCrashManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4476E6C42CD89D128FD4CE503A39900E /* YQAvoidCrashManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BF1821FF411395DB0D05BE171804B9 /* Build configuration list for PBXNativeTarget "YQAvoidCrashManager" */;
+			buildPhases = (
+				3B820A23A50742C4AC35E3CC9CB514CE /* Sources */,
+				233B6505F843F843107B89435CD1BB0B /* Frameworks */,
+				67436C5428D5C41E0775196BC212C939 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQAvoidCrashManager;
+			productName = YQAvoidCrashManager;
+			productReference = D1BF4A4EC016783A4E8A482B263046F1 /* YQAvoidCrashManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		861B318F2C3128EF9A72F9024D8661F0 /* Pods-YQAvoidCrashManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B099FD022FFAAED4391BAE0952D0BC /* Build configuration list for PBXNativeTarget "Pods-YQAvoidCrashManager_Tests" */;
+			buildPhases = (
+				BD88360F02749B8CD94C0FCDB36247A8 /* Sources */,
+				6ACA060FD4DB4DDC56A3F7487D95A0E5 /* Frameworks */,
+				560B067F93A7A022D9CA40091D2574D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YQAvoidCrashManager_Tests";
+			productName = "Pods-YQAvoidCrashManager_Tests";
+			productReference = CF9985409D8644C7DC7777539F761E93 /* Pods_YQAvoidCrashManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9315F550DA9441BFCB66D479231DD9B /* Pods-YQAvoidCrashManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF137B752EB7F5D5573032F8985CEBEA /* Build configuration list for PBXNativeTarget "Pods-YQAvoidCrashManager_Example" */;
+			buildPhases = (
+				15176AB05AE9ADA92BD50450746EAAB2 /* Sources */,
+				F945D5E2FBAC55051CD04EAB58BDF0C6 /* Frameworks */,
+				0E237E0783C16BBC48AB03C1E06A4EFE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ACAF6AB2621CF6161FC0F68F502AF9A /* PBXTargetDependency */,
+			);
+			name = "Pods-YQAvoidCrashManager_Example";
+			productName = "Pods-YQAvoidCrashManager_Example";
+			productReference = 3C6B28C8258B46CE1149290B189C5870 /* Pods_YQAvoidCrashManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 94A176A99E5DB1180EBC9C4B3B318286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9315F550DA9441BFCB66D479231DD9B /* Pods-YQAvoidCrashManager_Example */,
+				861B318F2C3128EF9A72F9024D8661F0 /* Pods-YQAvoidCrashManager_Tests */,
+				4476E6C42CD89D128FD4CE503A39900E /* YQAvoidCrashManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15176AB05AE9ADA92BD50450746EAAB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10F7F605EF62231FFD148A0025B27D7 /* Pods-YQAvoidCrashManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B820A23A50742C4AC35E3CC9CB514CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67DD963ADF811496EA07B17F013130E8 /* ReplaceMe.m in Sources */,
+				89F789961E5D3E8FA6A0038118713CB1 /* YQAvoidCrashManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD88360F02749B8CD94C0FCDB36247A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3DEFF9054402160AAF50323C46B0C6 /* Pods-YQAvoidCrashManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ACAF6AB2621CF6161FC0F68F502AF9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YQAvoidCrashManager;
+			target = 4476E6C42CD89D128FD4CE503A39900E /* YQAvoidCrashManager */;
+			targetProxy = B7C57EEEE087240C212863C780425D9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		500619EC9BB07F0EA881BB40E7A64D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901325368890AE298854CDEB9EB0F7D7 /* Pods-YQAvoidCrashManager_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YQAvoidCrashManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YQAvoidCrashManager_Example/Pods-YQAvoidCrashManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YQAvoidCrashManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6309ED34660EF0057B7A6F218F6FBB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C779DFBF443D43956A66BF345D4354C4 /* Pods-YQAvoidCrashManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YQAvoidCrashManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YQAvoidCrashManager_Tests/Pods-YQAvoidCrashManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YQAvoidCrashManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6320E1074432E2C22F62D7CC2C30161C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B32F0A6D87924DE613C91141E0D02F57 /* YQAvoidCrashManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YQAvoidCrashManager/YQAvoidCrashManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YQAvoidCrashManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YQAvoidCrashManager/YQAvoidCrashManager.modulemap";
+				PRODUCT_NAME = YQAvoidCrashManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A46639220556EC7AF67DCD3F1CA7F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B32F0A6D87924DE613C91141E0D02F57 /* YQAvoidCrashManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YQAvoidCrashManager/YQAvoidCrashManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YQAvoidCrashManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YQAvoidCrashManager/YQAvoidCrashManager.modulemap";
+				PRODUCT_NAME = YQAvoidCrashManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		989AB105CA67D8742DFE5AEBB960F3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DAFA41FF9A35B29A068856E0246F7BB /* Pods-YQAvoidCrashManager_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YQAvoidCrashManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YQAvoidCrashManager_Tests/Pods-YQAvoidCrashManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YQAvoidCrashManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFFE078A73F95FE0F27C7B0289B4CF39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805F98F6D015762A5842DCC91E79B2C4 /* Pods-YQAvoidCrashManager_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YQAvoidCrashManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YQAvoidCrashManager_Example/Pods-YQAvoidCrashManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YQAvoidCrashManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01BF1821FF411395DB0D05BE171804B9 /* Build configuration list for PBXNativeTarget "YQAvoidCrashManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6320E1074432E2C22F62D7CC2C30161C /* Debug */,
+				6A46639220556EC7AF67DCD3F1CA7F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B099FD022FFAAED4391BAE0952D0BC /* Build configuration list for PBXNativeTarget "Pods-YQAvoidCrashManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6309ED34660EF0057B7A6F218F6FBB9E /* Debug */,
+				989AB105CA67D8742DFE5AEBB960F3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF137B752EB7F5D5573032F8985CEBEA /* Build configuration list for PBXNativeTarget "Pods-YQAvoidCrashManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500619EC9BB07F0EA881BB40E7A64D3E /* Debug */,
+				EFFE078A73F95FE0F27C7B0289B4CF39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

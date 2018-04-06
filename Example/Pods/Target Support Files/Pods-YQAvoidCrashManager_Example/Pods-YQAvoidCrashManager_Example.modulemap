@@ -1,0 +1,6 @@
+framework module Pods_YQAvoidCrashManager_Example {
+  umbrella header "Pods-YQAvoidCrashManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
