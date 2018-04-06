@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YQAvoidCrashManager_Example' do
+  pod 'YQAvoidCrashManager', :path => '../'
+
+  target 'YQAvoidCrashManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
